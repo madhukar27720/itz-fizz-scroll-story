@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="19" fill="#26251f"/>
+  <text x="9" y="41" fill="#f4f0e8" font-family="Arial,sans-serif" font-size="29" font-weight="900" letter-spacing="-3">itz</text>
+  <path d="M45 19l2.1 5.5L53 26l-5.9 2.1L45 34l-2.1-5.9L37 26l5.9-1.5L45 19Z" fill="#cedd73"/>
+</svg>

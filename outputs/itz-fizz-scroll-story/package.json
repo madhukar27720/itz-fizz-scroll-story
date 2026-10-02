@@ -1,0 +1,27 @@
+{
+  "name": "itz-fizz-scroll-story",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "vite --configLoader runner --host 0.0.0.0",
+    "build": "vite build --configLoader runner",
+    "preview": "vite preview --configLoader runner --host 0.0.0.0",
+    "deploy": "pnpm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "gsap": "^3.14.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@vitejs/plugin-react": "^5.1.1",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.17",
+    "terser": "^5.51.2",
+    "vite": "^7.2.2"
+  }
+}
